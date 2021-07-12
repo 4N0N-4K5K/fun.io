@@ -13,8 +13,8 @@ background-color: black;}
 
 .border {
   border-radius: 4px;
-  margin-right: 250px;
-  margin-left: 250px;
+  margin-right: auto;
+  margin-left: auto;
    
     text-align:center ;
     background: linear-gradient(to right, red, purple);
