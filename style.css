@@ -1,0 +1,61 @@
+body {
+  background-image: url('lightening.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode:exclusion;
+  text-align: center;
+  
+
+}
+h3{font-family: 'Courier New', Courier, monospace;
+color: blue; font-size: 30px; 
+background-color: black;}
+
+.border {
+  border-radius: 4px;
+  margin-right: 250px;
+  margin-left: 250px;
+   
+    text-align:center ;
+    background: linear-gradient(to right, red, purple);
+    padding: 5px;
+    color: blue;
+
+    
+    
+    }
+.inner {
+    background:black;
+    padding: 15px;
+    font-size: 30px;}
+
+
+
+img {
+  border: 5px solid  #990000;
+  border-radius: 10px;
+}
+
+.glow {
+  font-family: Georgia;
+  text-align: center;
+  font-size: 50px;
+  color: #c41818;
+  animation: glow 1s ease-in-out infinite alternate
+}
+p{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 20px;
+padding: 2px;
+font-kerning: none;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #668cff, 0 0 40px #668cff, 0 0 50px #668cff, 0 0 60px #668cff, 0 0 70px #668cff
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px  #002db3, 0 0 40px   #002db3, 0 0 50px  #002db3, 0 0 60px #002db3, 0 0 70px  #002db3, 0 0 80px   #002db3
+  }
+
+}
