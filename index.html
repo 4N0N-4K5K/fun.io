@@ -15,14 +15,23 @@
     <script>alert("JAI HIND, JAI BHARAT ~  AKSK");</script>
     <script>alert("H4CK3D BY 4K5K");</script> 
     <style>
-    body{background: url("https://i.ibb.co/vYLCfv8/lord-krishna-narrating-the-gita-to-arjuna-mahabharat-arjuna-jaishreekrishna-krishna-1.gif") no-repeat center center fixed;background-size:100% 100%;font-family:courier;margin-top:35px;}
+    body{background: url("https://i.ibb.co/vYLCfv8/lord-krishna-narrating-the-gita-to-arjuna-mahabharat-arjuna-jaishreekrishna-krishna-1.gif") no-repeat center center fixed;background-size:100% 100%;font-family:courier;margin-top:35px;text-align: center;}
     h1,h2{margin-top:.3em;margin-bottom:.3em;}
     h1.nprinsleyy{color:#dbd9d9;}
     h2{color:#990909;}
+
     img{
         height: 135px;
         width: 160px;
     }
+    .btn1{
+  background-color: black;
+  color: white;
+  border: 2px solid orange;
+  cursor: pointer;
+  padding: 10px 25px;
+  border-radius: 16px;
+}
     .msg {
         font-size: 17px;
         color: cyan;
@@ -45,8 +54,20 @@
         <h2><B><font face="Iceland" style="font-family: 'Copperplate', sans-serif;" color="#FFA500">INDIAN</font> <font face="Iceland" style="font-family: 'Copperplate', sans-serif;" color="white">CYBER</font> <font face="Iceland" style="font-family: 'Copperplate', sans-serif;" color="#32CD32">FORCE</font></B></h2><hr>
         <p class="msg"> यदा यदा ही धर्मस्य ग्लानिर्भवति भारत | <br> अभ्युत्थानमधर्मस्य तदात्मानम सृज्याहम || <br> <br> परित्राणाय साधूनां विनाशाय च दुष्कृताम्‌ | <br> धर्मसंस्थापनार्थाय सम्भवामि युगे युगे ||</p><hr/>
       <b><font face="Iceland" style="font-family: 'Copperplate', sans-serif;" color="purple">::: MEANING :::</font><p class="meaning">Whenever, O Bharat, righteousness (dharma) declines and unrighteousness is rampant, I manifest myself. <br> I manifest myself from age to age to defend the pious, destroy the wicked, and strengthen dharma.</p></b>
-        <audio src="https://github.com/4N0N-4K5K/fun.io/blob/main/Yada%20Yada%20Hi%20Dharmasya.mp3?raw=true"  autoplay="1" loop="1"></audio>
+        <audio id="myAudio" src="https://github.com/4N0N-4K5K/fun.io/blob/main/Yada%20Yada%20Hi%20Dharmasya.mp3?raw=true"  autoplay="1" loop="1"></audio>
         <marquee class="foonathanPrinsley"><b style="color: #ad06bf;font-size:16px;" class="nprinsley-text nprinsley-rainbow">GREETZ TO:  4N0N 4K5K, INDIAN CYBER FORCE and YOU</b></marquee></center>
         <script src="https://cdn.prinsh.com/NathanPrinsley-effect/salju-terbang.js" type="text/javascript"></script>
+        <button onclick="playAudio()" class="btn1" type="button">Play Music</button> <button onclick="pauseAudio()" class="btn1" type="button">Pause Music</button>
+       <script>
+       var x = document.getElementById("myAudio"); 
+  
+       function playAudio() { 
+        x.play(); 
+        } 
+  
+      function pauseAudio() { 
+        x.pause(); 
+       } 
+       </script>
     </body>
     </html>
